@@ -1,0 +1,35 @@
+{
+  "name": "tiendavirtual",
+  "version": "1.0.0",
+  "description": "Creacion de API-REST para una tienda virtual ",
+  "homepage": "https://github.com/Emanuel-690star/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Emanuel-690star/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Emanuel-690star/Backend.git"
+  },
+  "license": "ISC",
+  "author": "Emanuel santos cruz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "db:create": "npx sequelize-cli db:create",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:migrate:status": "npx sequelize-cli db:migrate:status",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.20.0",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
